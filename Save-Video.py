@@ -21,7 +21,7 @@ print(width)
 fps = int(vid.get(cv.CAP_PROP_FPS))
 print(fps)
 
-# Video Writer helps us to save the video in the local system\
+# Video Writer helps us to save the video in the local system/
 # 
 out = cv.VideoWriter('Boxing.avi', cv.VideoWriter_fourcc(*'MP4V'), 30, (width, height))
 
